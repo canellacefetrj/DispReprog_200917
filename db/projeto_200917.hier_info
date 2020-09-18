@@ -1,0 +1,176 @@
+|projeto_200917
+CLOCK_50 => pwm_display:pwm1.clock
+SW[0] => f_display:d0.disp_in[0]
+SW[0] => f_display:d1.disp_in[0]
+SW[0] => f_display:d2.disp_in[0]
+SW[0] => f_display:d3.disp_in[0]
+SW[1] => f_display:d0.disp_in[1]
+SW[1] => f_display:d1.disp_in[1]
+SW[1] => f_display:d2.disp_in[1]
+SW[1] => f_display:d3.disp_in[1]
+SW[2] => f_display:d0.disp_in[2]
+SW[2] => f_display:d1.disp_in[2]
+SW[2] => f_display:d2.disp_in[2]
+SW[2] => f_display:d3.disp_in[2]
+SW[3] => f_display:d0.disp_in[3]
+SW[3] => f_display:d1.disp_in[3]
+SW[3] => f_display:d2.disp_in[3]
+SW[3] => f_display:d3.disp_in[3]
+SW[4] => f_display:d0.disp_in[4]
+SW[4] => f_display:d1.disp_in[4]
+SW[4] => f_display:d2.disp_in[4]
+SW[4] => f_display:d3.disp_in[4]
+SW[5] => f_display:d0.disp_in[5]
+SW[5] => f_display:d1.disp_in[5]
+SW[5] => f_display:d2.disp_in[5]
+SW[5] => f_display:d3.disp_in[5]
+SW[6] => f_display:d0.disp_in[6]
+SW[6] => f_display:d1.disp_in[6]
+SW[6] => f_display:d2.disp_in[6]
+SW[6] => f_display:d3.disp_in[6]
+HEX0[0] <= f_display:d0.disp_out[0]
+HEX0[1] <= f_display:d0.disp_out[1]
+HEX0[2] <= f_display:d0.disp_out[2]
+HEX0[3] <= f_display:d0.disp_out[3]
+HEX0[4] <= f_display:d0.disp_out[4]
+HEX0[5] <= f_display:d0.disp_out[5]
+HEX0[6] <= f_display:d0.disp_out[6]
+HEX1[0] <= f_display:d1.disp_out[0]
+HEX1[1] <= f_display:d1.disp_out[1]
+HEX1[2] <= f_display:d1.disp_out[2]
+HEX1[3] <= f_display:d1.disp_out[3]
+HEX1[4] <= f_display:d1.disp_out[4]
+HEX1[5] <= f_display:d1.disp_out[5]
+HEX1[6] <= f_display:d1.disp_out[6]
+HEX2[0] <= f_display:d2.disp_out[0]
+HEX2[1] <= f_display:d2.disp_out[1]
+HEX2[2] <= f_display:d2.disp_out[2]
+HEX2[3] <= f_display:d2.disp_out[3]
+HEX2[4] <= f_display:d2.disp_out[4]
+HEX2[5] <= f_display:d2.disp_out[5]
+HEX2[6] <= f_display:d2.disp_out[6]
+HEX3[0] <= f_display:d3.disp_out[0]
+HEX3[1] <= f_display:d3.disp_out[1]
+HEX3[2] <= f_display:d3.disp_out[2]
+HEX3[3] <= f_display:d3.disp_out[3]
+HEX3[4] <= f_display:d3.disp_out[4]
+HEX3[5] <= f_display:d3.disp_out[5]
+HEX3[6] <= f_display:d3.disp_out[6]
+
+
+|projeto_200917|f_display:d0
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+disp_in[0] => disp_out.DATAB
+disp_in[1] => disp_out.DATAB
+disp_in[2] => disp_out.DATAB
+disp_in[3] => disp_out.DATAB
+disp_in[4] => disp_out.DATAB
+disp_in[5] => disp_out.DATAB
+disp_in[6] => disp_out.DATAB
+disp_out[0] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[1] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[2] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[3] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[4] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[5] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[6] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|projeto_200917|f_display:d1
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+disp_in[0] => disp_out.DATAB
+disp_in[1] => disp_out.DATAB
+disp_in[2] => disp_out.DATAB
+disp_in[3] => disp_out.DATAB
+disp_in[4] => disp_out.DATAB
+disp_in[5] => disp_out.DATAB
+disp_in[6] => disp_out.DATAB
+disp_out[0] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[1] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[2] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[3] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[4] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[5] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[6] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|projeto_200917|f_display:d2
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+disp_in[0] => disp_out.DATAB
+disp_in[1] => disp_out.DATAB
+disp_in[2] => disp_out.DATAB
+disp_in[3] => disp_out.DATAB
+disp_in[4] => disp_out.DATAB
+disp_in[5] => disp_out.DATAB
+disp_in[6] => disp_out.DATAB
+disp_out[0] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[1] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[2] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[3] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[4] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[5] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[6] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|projeto_200917|f_display:d3
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+pwm => disp_out.OUTPUTSELECT
+disp_in[0] => disp_out.DATAB
+disp_in[1] => disp_out.DATAB
+disp_in[2] => disp_out.DATAB
+disp_in[3] => disp_out.DATAB
+disp_in[4] => disp_out.DATAB
+disp_in[5] => disp_out.DATAB
+disp_in[6] => disp_out.DATAB
+disp_out[0] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[1] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[2] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[3] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[4] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[5] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+disp_out[6] <= disp_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|projeto_200917|pwm_display:pwm1
+clock => pwm~reg0.CLK
+clock => \p_pwm:vpwm.CLK
+clock => \p_pwm:contador[0].CLK
+clock => \p_pwm:contador[1].CLK
+clock => \p_pwm:contador[2].CLK
+clock => \p_pwm:contador[3].CLK
+clock => \p_pwm:contador[4].CLK
+clock => \p_pwm:contador[5].CLK
+clock => \p_pwm:contador[6].CLK
+dc[0] => Equal0.IN13
+dc[1] => Equal0.IN12
+dc[2] => Equal0.IN11
+dc[3] => Equal0.IN10
+dc[4] => Equal0.IN9
+dc[5] => Equal0.IN8
+dc[6] => Equal0.IN7
+pwm <= pwm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,16 @@
+entity projeto_200917 is 
+
+port (
+
+
+);
+end entity projeto_200917;
+
+
+architecture c_projeto_200917 of projeto_200917 is 
+
+begin
+
+
+
+end architecture c_projeto_200917;
