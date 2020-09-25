@@ -1,9 +1,13 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
 entity f_display is 
 
 port (
-	signal pwm : in bit;
-	signal disp_in : in bit_vector(6 downto 0);
-	signal disp_out : out bit_vector(6 downto 0)
+	signal pwm : in std_logic;
+	signal disp_in : in std_logic_vector(6 downto 0);
+	signal disp_out : out std_logic_vector(6 downto 0)
 );
 end entity f_display;
 

@@ -1,9 +1,13 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
 entity pwm_display is 
 
 port (
-	signal clock : in bit;
+	signal clock : in std_logic;
 	signal dc : in integer range 0 to 100;
-	signal pwm : out bit
+	signal pwm : out std_logic
 );
 end entity pwm_display;
 
@@ -15,7 +19,7 @@ begin
 p_pwm : process (clock)
 
 variable contador : integer range 0 to 100 := 0;
-variable vpwm : bit := '1';
+variable vpwm : std_logic := '1';
 
 begin
 
