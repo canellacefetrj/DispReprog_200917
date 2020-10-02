@@ -1,0 +1,25 @@
+#include "sys/alt_stdio.h"
+
+
+void setup (void) {
+
+
+}
+
+void loop (void) {
+
+
+
+}
+
+int main()
+{ 
+  alt_putstr("Hello from Nios II!\n");
+
+  /* Event loop never exits. */
+  setup();
+
+  while (1) loop();
+
+  return 0;
+}
